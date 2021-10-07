@@ -3,7 +3,8 @@ import reactDom from 'react-dom';
 // import Notification from './demo/Notification';
 // import Garage from './demo/Garage';
 // import Form from './demo/Form';
-import Form1 from './demo/Form1';
+// import Form1 from './demo/Form1';
+import Nav from './pages/Nav';
 
 
 // const result = () => {
@@ -15,4 +16,4 @@ import Form1 from './demo/Form1';
 //     return <h1> {x} {(x > 10 ? "Greater than 10": "Less then 10")}</h1>
 // }
 
-reactDom.render(<Form1/>, document.getElementById('root'));
+reactDom.render(<Nav/>, document.getElementById('root'));
