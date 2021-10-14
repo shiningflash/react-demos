@@ -1,5 +1,7 @@
 import reactDom from 'react-dom';
-import Timer from './hooks-practice/Timer';
+import CurrentTime from './hooks-practice/Time';
+// import FavoriteCar from './hooks-practice/Car';
+// import Timer from './hooks-practice/Timer';
 // import FavoriteCar from './hooks-practice/Car';
 // import FavoriteColor from './hooks-practice/Color';
 // import Iteration from './memo-practice/Iteration';
@@ -20,4 +22,4 @@ import Timer from './hooks-practice/Timer';
 //     return <h1> {x} {(x > 10 ? "Greater than 10": "Less then 10")}</h1>
 // }
 
-reactDom.render(<Timer/>, document.getElementById('root'));
+reactDom.render(<CurrentTime/>, document.getElementById('root'));
