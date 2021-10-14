@@ -1,5 +1,9 @@
 import reactDom from 'react-dom';
-import CurrentTime from './hooks-practice/Time';
+import AccessingDOM from './hooks-practice/AccessingDOM';
+// import RenderCount from './hooks-practice/RenderCount';
+// import Component1 from './hooks-practice/Context';
+// import Component1 from './hooks-practice/PropDilling';
+// import CurrentTime from './hooks-practice/Time';
 // import FavoriteCar from './hooks-practice/Car';
 // import Timer from './hooks-practice/Timer';
 // import FavoriteCar from './hooks-practice/Car';
@@ -22,4 +26,4 @@ import CurrentTime from './hooks-practice/Time';
 //     return <h1> {x} {(x > 10 ? "Greater than 10": "Less then 10")}</h1>
 // }
 
-reactDom.render(<CurrentTime/>, document.getElementById('root'));
+reactDom.render(<AccessingDOM/>, document.getElementById('root'));
