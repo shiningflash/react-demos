@@ -1,5 +1,6 @@
 import reactDom from 'react-dom';
-import AccessingDOM from './hooks-practice/AccessingDOM';
+import TrackingStateChange from './hooks-practice/TrackingStateChange';
+// import AccessingDOM from './hooks-practice/AccessingDOM';
 // import RenderCount from './hooks-practice/RenderCount';
 // import Component1 from './hooks-practice/Context';
 // import Component1 from './hooks-practice/PropDilling';
@@ -26,4 +27,4 @@ import AccessingDOM from './hooks-practice/AccessingDOM';
 //     return <h1> {x} {(x > 10 ? "Greater than 10": "Less then 10")}</h1>
 // }
 
-reactDom.render(<AccessingDOM/>, document.getElementById('root'));
+reactDom.render(<TrackingStateChange/>, document.getElementById('root'));
